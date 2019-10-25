@@ -19,6 +19,9 @@
         <module>mall_order</module>
         <module>mall_service</module>
         <module>mall_promotion</module>
+        <module>mall_comment</module>
+        <module>mall_admin</module>
+        <module>mall_commodity</module>
     </modules>
 
 
