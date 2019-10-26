@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eac22f93-6d1c-4200-9e84-aca37514e60c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_admin/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_admin/target/classes/com/mr/mall/mall_admin/MallAdminApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_admin/target/test-classes/com/mr/mall/mall_admin/MallAdminApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_promotion/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_promotion/target/classes/com/mr/mall/mall_promotion/MallPromotionApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_promotion/target/classes/com/mr/mall/mall_promotion/TestMBG.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_promotion/target/test-classes/META-INF/mall_promotion.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_promotion/target/test-classes/com/mr/mall/mall_promotion/MallPromotionApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_service/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_service/target/classes/com/mr/mall/mall_service/MallServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_service/target/test-classes/com/mr/mall/mall_service/MallServiceApplicationTests.class" afterDir="false" />
+    <list default="true" id="eac22f93-6d1c-4200-9e84-aca37514e60c" name="Default Changelist" comment="更改">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/mall_commodity/target/" />
@@ -34,15 +23,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1900">
-              <caret line="20" column="35" selection-start-line="15" selection-start-column="4" selection-end-line="20" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mall_admin/src/main/java/com/mr/mall/mall_admin/MallAdminApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -62,7 +42,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mall_promotion/src/main/java/com/mr/mall/mall_promotion/MallPromotionApplication.java">
+        <entry file="file://$PROJECT_DIR$/mall_promotion/src/main/java/com/mr/mall/MallPromotionApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -89,15 +69,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mall_promotion/src/main/java/com/mr/mall/mall_promotion/TestMBG.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mall_promotion/src/main/java/com/mr/mall/mapper/SmsFlashPromotionMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
@@ -109,13 +80,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mall_promotion/src/main/java/com/mr/mall/pojo/SmsFlashPromotion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-575">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="214">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mall_promotion/src/main/java/com/mr/mall/controller/SmsFlashPromotionController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -134,6 +121,7 @@
         <option value="$PROJECT_DIR$/mall_promotion/src/main/java/com/mr/mall/mall_promotion/TestMBG.java" />
         <option value="$PROJECT_DIR$/mall_promotion/mbg.xml" />
         <option value="$PROJECT_DIR$/mall_promotion/src/main/java/com/mr/mall/mapper/SmsFlashPromotionMapper.java" />
+        <option value="$PROJECT_DIR$/mall_promotion/src/main/java/com/mr/mall/controller/SmsFlashPromotionController.java" />
       </list>
     </option>
   </component>
@@ -156,10 +144,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -174,61 +162,6 @@
               <item name="mellpro" type="b2602c69:ProjectViewProjectNode" />
               <item name="mellpro" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="mellpro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mellpro" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_promotion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mellpro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mellpro" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_promotion" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mellpro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mellpro" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_promotion" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mellpro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mellpro" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_promotion" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mellpro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mellpro" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_promotion" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mall" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mellpro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mellpro" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_promotion" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mellpro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mellpro" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_promotion" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mall" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -237,7 +170,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ChangesTree.GroupingKeys" value="module" />
+    <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -255,6 +188,7 @@
       <recent name="F:\ElectricityMellProject\mellpro" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mr.mall" />
       <recent name="com.mr.mall.mall_promotion" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -292,7 +226,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mr.mall.mall_promotion.*" />
+          <option name="PATTERN" value="com.mr.mall.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -368,7 +302,7 @@
     </configuration>
     <configuration name="MallPromotionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mall_promotion" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mr.mall.mall_promotion.MallPromotionApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mr.mall.MallPromotionApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -416,7 +350,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572069599547</updated>
       <workItem from="1572069600958" duration="1673000" />
-      <workItem from="1572076829443" duration="2482000" />
+      <workItem from="1572076829443" duration="3378000" />
     </task>
     <task id="LOCAL-00001" summary="更改">
       <created>1572079280376</created>
@@ -425,16 +359,30 @@
       <option name="project" value="LOCAL" />
       <updated>1572079280376</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="更改">
+      <created>1572079355024</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572079355024</updated>
+    </task>
+    <task id="LOCAL-00003" summary="更改">
+      <created>1572079715131</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572079715131</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4155000" />
+    <option name="totallyTimeSpent" value="5051000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24597855" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37067774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -445,7 +393,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.45750707" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4627507" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -456,12 +404,12 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.23087819" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.4713467" />
       <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.3286119" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.2272118" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.45089903" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -559,7 +507,7 @@
     <entry file="file://$PROJECT_DIR$/mall_promotion/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall_promotion/src/main/java/com/mr/mall/mall_promotion/MallPromotionApplication.java">
+    <entry file="file://$PROJECT_DIR$/mall_promotion/src/main/java/com/mr/mall/MallPromotionApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -594,10 +542,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mall_promotion/src/main/java/com/mr/mall/controller/SmsFlashPromotionController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall_promotion/src/main/java/com/mr/mall/controller/SmsFlashPromotionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/mall_promotion/src/main/java/com/mr/mall/pojo/SmsFlashPromotion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-575">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="214">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
         </state>
       </provider>
     </entry>
