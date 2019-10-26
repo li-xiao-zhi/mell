@@ -1,4 +1,4 @@
-package com.mr.mall.mall_promotion;
+package com.mr.mall;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
