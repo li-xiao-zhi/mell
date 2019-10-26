@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mall_admin" />
+        <module name="mall_order" />
+        <module name="mall_comment" />
+        <module name="mellpro" />
+        <module name="mall_service" />
+        <module name="mall_commodity" />
+        <module name="mall_promotion" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mall_admin" target="1.8" />
+      <module name="mall_comment" target="1.8" />
+      <module name="mall_commodity" target="1.8" />
+      <module name="mall_order" target="1.8" />
+      <module name="mall_promotion" target="1.8" />
+      <module name="mall_service" target="1.8" />
+      <module name="mellpro" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mall_admin" options="-parameters" />
+      <module name="mall_comment" options="-parameters" />
+      <module name="mall_commodity" options="-parameters" />
+      <module name="mall_order" options="-parameters" />
+      <module name="mall_promotion" options="-parameters" />
+      <module name="mall_service" options="-parameters" />
+      <module name="mellpro" options="-parameters" />
+    </option>
+  </component>
+</project>
